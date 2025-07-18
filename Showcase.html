@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Work Showcase</title>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Varela+Round');
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700');
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    a {
+      color: #22d5c0;
+      text-decoration: none;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      padding: 20px;
+      max-width: 1000px;
+      background-color: #3d3e42;
+    }
+
+    .header a {
+      color: white;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 1000px;
+      width: 80%;
+      padding: 40px;
+      background-color: #fff;
+      margin-top: 30px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+      color: #4a4e51;
+      text-align: center;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .project {
+      background: #f1f1f1;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .project:hover {
+      transform: scale(1.02);
+    }
+
+    .project img {
+      width: 100%;
+      height: auto;
+      border-radius: 6px;
+      margin-bottom: 10px;
+    }
+
+    .project-title {
+      font-size: 1.1em;
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      background-color: #3d3e42;
+      color: white;
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 768px) {
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .container {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div>
+      <a href="https://misfits12.github.io/Portfolio/Personal%20portfolio.html" style="color: #22d5c0;">
+          <strong>Robert Romanowski</strong>
+      </a>
+  </div>
+  <nav>
+      <a href="https://misfits12.github.io/About-me/About%20me.html">About Me</a>
+      <a href="https://misfits12.github.io/Testimonals/Letters%20of%20rec.html#travel">Testimonials</a>
+      <a href="#travel">Showcase</a>
+      <a href="https://misfits12.github.io/Resume25/2025%20Resume.html" class="highlight">Resume</a>
+  </nav>
+</div>
+  </header>
+      
+
+  <div class="container">
+    <h1>Work Showcase</h1>
+    <p style="text-align:center; color:#9099a0;">A collection of work I'm proud to share from internships to personal tech builds.</p>
+
+    <div class="projects">
+
+      <!-- ✅ Internship Project -->
+<div class="project">
+    <img src="https://i.ibb.co/1fLGQpBK/1690576484717.jpg" alt="Internship Project Preview">
+    <div class="project-title">Sales Development Internship</div>
+    <a href="https://misfits12.github.io/Portfolio/Sales%20Development%20Internship.pdf" target="_blank">View Full PDF</a>
+  </div>
+  
+
+      <!-- 🔧 Project Placeholder 1 -->
+      <div class="project">
+        <img src="https://via.placeholder.com/300x200?text=PC+Build+Project" alt="PC Build">
+        <div class="project-title">Custom PC Build</div>
+        <a href="#">Coming Soon</a>
+      </div>
+
+      <!-- 🔧 Project Placeholder 2 -->
+      <div class="project">
+        <img src="https://via.placeholder.com/300x200?text=Networking+Lab" alt="Networking Lab">
+        <div class="project-title">Networking Lab - Class Project</div>
+        <a href="#">Coming Soon</a>
+      </div>
+
+    </div>
+  </div>
+
+
+</body>
+</html>
